@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test
-        uses:  kentis/test-container-action
+        uses:  kentis/test-container-action@0
         with:
           myInput: hei
