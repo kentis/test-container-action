@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+  
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        uses:  kentis/test-container-action
+        with:
+          myInput: hei
