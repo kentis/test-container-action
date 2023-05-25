@@ -6,6 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: look
+        run: pwd && ls && find .
       - name: Test
         uses:  kentis/test-container-action@1
         with:
